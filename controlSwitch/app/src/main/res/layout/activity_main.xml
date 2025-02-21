@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Hình nền -->
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+
+    <!-- Switch để thay đổi hình nền -->
+    <Switch
+        android:id="@+id/switchBackground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đổi hình nền"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>
